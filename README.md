@@ -21,10 +21,13 @@ This code calculates the prime path coverage for any given graph.
 ## Example Input/Output
 
 Enter the number of vertices: 4
+
 Enter the number of edges: 5
+
 Enter 5 edges: 0 1 0 2 1 3 2 3 3 0
 
 All paths and cycles:
+
 [0]
 [1]
 [2]
@@ -48,9 +51,11 @@ All paths and cycles:
 [2, 3, 0, 2]
 [3, 0, 1, 3]
 [3, 0, 2, 3]
+
 Total of paths and cycles: 23
 
 All Prime paths:
+
 [0, 1, 3, 0]
 [0, 2, 3, 0]
 [1, 3, 0, 1]
@@ -59,4 +64,5 @@ All Prime paths:
 [2, 3, 0, 2]
 [3, 0, 1, 3]
 [3, 0, 2, 3]
+
 Total of Prime paths: 8
